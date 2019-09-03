@@ -1,0 +1,74 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container {
+    /* background: red; */
+    width: 220px;
+    height: auto;
+    margin-top: 50px;
+    border: 1px solid #3498db;
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.cal-display {
+    padding: 15px 10px;
+    text-align: right;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 800;
+    background: #3498db;
+    margin-bottom: 15px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.cal-keys .cal-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+
+.cal-keys .cal-row button {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 50%;
+    border: none;
+    border: 1px solid #3498db;
+    font-weight: 400;
+    font-size: 18px;
+    background: #ecf0f1;
+    cursor: pointer;
+}
+
+.cal-keys .cal-row button:focus {
+outline: none;
+}
+
+.cal-keys .cal-row .btn-equal{
+    background: #3498db
+
+}
