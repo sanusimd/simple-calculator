@@ -12,18 +12,18 @@ Array.from(buttons).forEach((button) =>{
 button.addEventListener('click', function(event) {
 
 // display result when click on button
-result.innerHTML += button.value; 
+result.value += button.value; 
 });
 }) ;
 
-// compute value display result div
+// compute value display in result div
 compute.addEventListener('click', function(){
-    result.innerHTML = eval(result.innerHTML)
+    result.value = eval(result.value)
 });
 
 // clear the result 
 clear.addEventListener('click', function(){
-    result.innerHTML = ''
+    result.value = ''
 })
 
 
