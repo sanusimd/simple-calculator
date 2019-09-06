@@ -9,7 +9,7 @@ const buttons = document.querySelectorAll(".num, .op")
 Array.from(buttons).forEach((button) =>{
 
 // Add event listener 
-button.addEventListener('click', function(event) {
+button.addEventListener('click', () => {
 
 // display result when click on button
 result.value += button.value; 
@@ -17,12 +17,14 @@ result.value += button.value;
 }) ;
 
 // compute value display in result div
-compute.addEventListener('click', function(){
+compute.addEventListener('click', () =>{
+
     result.value = eval(result.value)
+ 
 });
 
 // clear the result 
-clear.addEventListener('click', function(){
+clear.addEventListener('click', () => {
     result.value = ''
 })
 

@@ -79,12 +79,19 @@ input[type="text"]::placeholder {
     box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.75);
 }
 
+
+
 .cal-keys .cal-row .btn-equal {
     width: 77%;
 }
 
 .cal-keys .cal-row button:focus {
     outline: none;
+}
+
+.cal-keys .cal-row button:active {
+    transform: translateY(.1rem);
+    border: none;
 }
 
 .cal-keys .cal-row .btn-equal {
