@@ -18,9 +18,13 @@ result.value += button.value;
 
 // compute value display in result div
 compute.addEventListener('click', () =>{
-
-    result.value = eval(result.value)
- 
+    
+    if(result.value.length == 0){
+        return false
+    }else{
+        result.value = eval(result.value)
+    }
+    
 });
 
 // clear the result 
